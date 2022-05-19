@@ -1,0 +1,19 @@
+/* Nan Zhang 8763062 */
+p{
+    font-size: 20px;
+    color: #5D5D5A;
+    text-align: center;
+}
+.discoverBtn{
+    text-align: center;
+}
+button{
+    background-color: #FBB040;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: bold;
+}

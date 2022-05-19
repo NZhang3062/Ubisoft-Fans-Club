@@ -1,0 +1,99 @@
+/* Nan Zhang 8763062 */
+.logo{
+    width: 180px;
+    height: auto;
+    float: left;
+}
+
+header{
+    text-align: center; 
+}
+h1{
+    color: #FBB040; 
+    font-family: cursive; 
+}
+h2{
+    text-align: center;
+    color: #FBB040;
+    font-family: sans-serif;
+}
+
+body{
+    width: 1400px; 
+    border: 2px solid black; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    font-family: sans-serif; 
+}
+
+nav{
+    background-color: #2F3C4F; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+nav a{
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #FBB040; 
+    text-decoration: none; 
+    padding: 0 30px; 
+}
+
+footer{
+    clear: both; 
+    text-align: center; 
+    font-weight: bold; 
+    background-color: #2F3C4F; 
+    padding: 20px 0; 
+    font-size: 20px; 
+    color: #FBB040; 
+}
+
+nav ul{ 
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+nav>ul>li{ 
+    display: inline-block; 
+    position: relative; 
+}
+
+nav ul li ul { 
+	width: 200px;
+	position: absolute; 
+	z-index: 999; 
+	text-align: left;
+	background-color: #FBB040;
+    box-shadow: 0 0 5px #FBB040;
+}
+
+nav ul li ul li a{ 
+    color: white;
+    padding: 10px;
+    display: block; 
+}
+
+nav ul li ul li:hover a:hover{ 
+    color: #D6E6F2;
+    background-color: #2F3C4F;
+}
+
+nav ul li ul { 
+    display: none; 
+}
+
+nav ul li:hover ul{
+    display: block; 
+}
+
+.redlink{
+    color: #FFF1BC; 
+    text-decoration: none; 
+}
+.redlink:hover{ 
+    color: #FBB040; 
+}

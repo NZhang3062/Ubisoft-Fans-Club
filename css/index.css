@@ -1,0 +1,89 @@
+/* Nan Zhang 8763062 */
+.warpper{
+    display: grid;
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: #506F86;
+    grid-template-columns: 120px 1000px 250px;
+    grid-column-gap: 10px;
+    color: #FBB040;
+}
+
+.box{
+    box-sizing: border-box;
+}
+.warpper2{
+    display: grid;
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: #5D5D5A;
+    height: auto;
+    grid-template-rows: 160px 160px 160px 160px 160px;
+    grid-row-gap: 10px;
+    color: #FBB040;
+}
+
+.upimg{
+    transform: rotate(180deg);
+    width: 90px;
+    margin: 2px;
+    padding: 3px;
+}
+.downimg{
+    width: 100px;
+    margin: 2px;
+    padding: 3px;
+}
+.homeimg{
+    width: 100px;
+    margin: 2px;
+    padding: 3px;
+}
+.gameimg{
+    width: 100px;
+    margin: 2px;
+    padding: 3px;
+}
+.ubisoftimg{
+    width: 100px;
+    margin: 2px;
+    padding: 3px;
+}
+.leftimg{
+    box-sizing: border-box;
+    text-align: center;
+}
+.mainImg{
+    width: 950px;
+    border: solid #FBB040;
+}
+aside h3{
+    color: #2F3C4F; 
+    text-align: center; 
+    font-family: sans-serif; 
+    font-size: 24px; 
+    background-color: #FFF1BC; 
+    padding: 10px 0; 
+}
+aside ul{
+    list-style: none; 
+    padding-left: 0; 
+}
+aside li:nth-child(odd){
+    color: white; 
+    background-color: #2F3C4F; 
+}
+aside li:nth-child(even){
+    color: white; 
+    background-color: #5D5D5A; 
+}
+aside li{
+    line-height: 30px; 
+    padding-left: 5px; 
+    font-weight: bold; 
+    color: #FBB040;
+}
+aside a{
+    color: #FBB040;
+    text-decoration: none;
+}
